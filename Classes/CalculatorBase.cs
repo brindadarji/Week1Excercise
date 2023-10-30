@@ -21,7 +21,7 @@ public class Calculator : CalculatorBase
     public override void Add(int ValueOne, int ValueTwo)
     {
         var AddedValue = ValueOne + ValueTwo;
-        Console.WriteLine("Added value is: " + AddedValue);
+        //Console.WriteLine("Added value is: " + AddedValue);
     }
 
     public override void Substract(int ValueOne, int ValueTwo)
